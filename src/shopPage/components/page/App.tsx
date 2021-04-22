@@ -1,9 +1,9 @@
 
 import DefaultNavBar from '../navbar';
-import Footer from '../footer/Footer';
+import Footer from '../footer/footer';
 import AppCarousel from '../carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FooterLayoutComponent from '../footer/FooterLayout';
+import FooterLayoutComponent from '../footer/footerLayout';
 
 function ShopApp() {
     return (

@@ -1,5 +1,11 @@
 
 import { Container, Row, Col } from 'react-bootstrap';
+import styled from 'styled-components';
+
+
+const NoBulletList = styled.li`
+    list-style: none;
+`;
 
 const AboutUsComponent = () => {
     return (
@@ -8,15 +14,15 @@ const AboutUsComponent = () => {
 
             <div>
                 <ul>
-                    <li>
+                    <NoBulletList>
                         Contact Us
-                </li>
-                    <li>
+                </NoBulletList>
+                    <NoBulletList>
                         Store Locator
-                </li>
-                    <li>
+                </NoBulletList>
+                    <NoBulletList>
                         Careers
-                </li>
+                    </NoBulletList>
                 </ul>
             </div>
         </Col>

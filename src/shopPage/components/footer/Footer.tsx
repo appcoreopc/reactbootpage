@@ -1,11 +1,11 @@
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-const Footer = (props:any) => {
+const Footer = (props: any) => {
     return (
 
         <Container>
-           {props.children}
+                {props.children}
         </Container>
 
     );
