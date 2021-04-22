@@ -1,23 +1,19 @@
 
-import React from 'react';
 import DefaultNavBar from '../navbar';
 import Footer from '../footer/Footer';
-
+import AppCarousel from '../carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import FooterLayoutComponent from '../footer/FooterLayout';
 
 function ShopApp() {
     return (
         <body>
             <div className="App">
                 <DefaultNavBar></DefaultNavBar>
-
-                <div className="container">
-                </div>
+                <AppCarousel></AppCarousel>
 
             </div>
-            <Footer></Footer>
-        
+            <Footer><FooterLayoutComponent></FooterLayoutComponent></Footer>
         </body>
     );
 }

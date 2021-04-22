@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
-
 const DefaultNavBar = () => {
   const [greeting, setGreeting] = useState(
     'Hello Function Component!'
